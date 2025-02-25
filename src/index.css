@@ -21,3 +21,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+  }
+}
